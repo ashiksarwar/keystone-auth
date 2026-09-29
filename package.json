@@ -1,0 +1,19 @@
+{
+  "name": "keystone-auth",
+  "version": "1.0.0",
+  "description": "Sign-in and sign-up portal with Express, SQLite and bcrypt",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true
+}
